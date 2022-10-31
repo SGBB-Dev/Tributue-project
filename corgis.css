@@ -1,0 +1,205 @@
+  html {
+      /* Setting a base font size of 10px give us easier rem calculations
+          Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+        */
+      font-size: 10px;
+    }
+    
+    body {
+      /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Helvetica Neue', Arial, sans-serif;
+      font-size: 1.6rem;
+      line-height: 1.5;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      font-weight: normal;
+      margin: 0px;
+      padding: .5px;
+    }
+    @media (max-width: 550px) {
+      h1 {
+        font-size: 4.5rem;
+        line-height: 1.2;
+
+      }
+    }
+    
+    h2 {
+      font-size: 4rem;
+      margin: 30px;
+    }
+    
+    h3{    font-size: 3rem;
+      margin: 30px;
+
+    }
+    a {
+      color: rgb(0, 0, 0)
+    }
+    
+    a:visited {
+      color: #7a1479;
+    }
+
+    br {
+      padding: 10px;
+      margin: auto;
+    }
+
+    
+    @media (max-width: 550px) {
+      #main {
+        margin: 0;
+      }
+    }
+    
+
+    
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+      border-style:solid;
+      display:block;
+    }
+    
+    li:before{
+      content: "";
+      background-size: cover;
+      background-image: url("https://img.aosomcdn.com/upload/activity/de/images/2022/08pet-sale-6.png");
+      width: 8rem;
+      height: 8rem;
+      position: absolute;
+      left: -10rem;
+      top: -10rem;
+    }
+
+    ul {
+      max-width: 550px;
+      margin: 0 auto 50px auto;
+      text-align: left;
+      line-height: 1.6;
+      list-style-type: none;
+    }
+    
+    li {
+      margin: 20px auto;
+      text-align: left;
+      position: relative;
+      
+    }
+    
+    blockquote {
+      font-style: italic;
+      max-width: 545px;
+      margin: 0 auto 50px auto;
+      text-align: left;
+    }
+    footer {
+      margin: 50px 0px 100px 0px;
+    }
+
+    #main {
+      margin: 30px;
+      padding: 100px;
+      border-radius: 5px;
+      background: rgb(177,156,167);
+      background: radial-gradient(circle, rgba(177,156,167,1) 13%, rgba(87,8,47,0.7197549770290965) 100%);
+    }
+
+    #funsized{
+      font-size:large;
+      font-weight: lighter;
+      text-align: center;
+    }
+    
+    #img-caption {
+      margin: 5px 50px 0px 50px;
+      color: #333;
+      font-size: 12px;
+      text-align: left;
+      line-height: 20px;
+    }
+
+    #sunroom-corgies {
+      margin: 50px 0 0 0;
+      text-align: justify;
+      font-size: 20px;
+      font-weight: lighter;
+      color: black;
+    }
+
+
+    @media (max-width: 550) {
+      #img-caption {
+        font-size: 1.4rem;
+      }
+    }
+
+    #facts{
+      background-image: none;
+      list-style-type: none;
+      margin: 20px auto;
+      text-align: left;
+      position: relative;
+
+    }
+    #napcredit {
+      text-align: left;
+      margin: 0;
+      padding: 0;
+      font-size: 1.4rem;
+    }
+
+    #history-title {
+      text-decoration: underline;
+      font-weight: bolder;
+      font-size: larger;
+
+    }
+
+    #headline {
+      margin: 50px 0;
+      text-align: left;
+      font-size: 30px;
+      font-weight: lighter;
+      margin: 50px 50px 25px 50px;
+
+    }
+
+    #info{
+      text-size-adjust: 12px;
+      margin: 0;
+    }
+    #by {
+      color: #333;
+      text-align: center;
+    }
+
+    #bork{
+      border-width: 1px 1px 10px 10px;
+      border-radius: 25% 25%  0% 0%;
+      border-color: rgba(245, 238, 242, 0.288);
+      align-items: center;
+
+
+  }
+  #image {
+    background: rgb(237, 237, 237);
+    padding: auto;
+    margin: 0 auto;
+    border-image: auto;
+    max-width: 100%;
+    height:auto;
+  }
+
+  #span {
+    align-tracks: center;
+  }
+
+  .stretch {
+    width: 150px;
+    height: 150px;
+    }
+ 
